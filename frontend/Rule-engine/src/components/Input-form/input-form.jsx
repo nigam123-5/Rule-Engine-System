@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
-import './input-Form.css';
+import './input-form.css';
 
 const InputForm = () => {
   const navigate = useNavigate();
