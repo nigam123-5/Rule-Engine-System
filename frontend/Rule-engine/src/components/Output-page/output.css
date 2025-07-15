@@ -1,0 +1,70 @@
+.output-container {
+  min-height: 100vh;
+  background: linear-gradient(to right, #e0f7fa, #f0f4f8);
+  padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.output-title {
+  font-size: 2rem;
+  color: #2c3e50;
+  margin-bottom: 30px;
+  font-weight: 600;
+}
+
+.output-box {
+  background: #ffffff;
+  padding: 30px;
+  width: 100%;
+  max-width: 600px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+}
+
+.output-box h3.issue-category {
+  font-size: 1.5rem;
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
+
+.output-box p {
+  font-size: 1rem;
+  color: #333;
+  margin: 8px 0;
+}
+
+.output-box p strong {
+  color: #007bff;
+}
+
+.derived-output {
+  margin-top: 20px;
+  padding-top: 15px;
+  border-top: 1px solid #eee;
+}
+
+.no-match {
+  background-color: #fff5f5;
+  border-left: 6px solid #ff4d4d !important;
+}
+
+.retry-button {
+  margin-top: 25px;
+  padding: 12px 24px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.retry-button:hover {
+  background-color: #0056b3;
+}

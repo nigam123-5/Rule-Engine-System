@@ -1,0 +1,94 @@
+/* Reset + Base Setup */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #e0eafc, #cfdef3);
+  min-height: 100vh;
+}
+
+/* Container */
+.dashboard-container {
+  padding: 50px 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.dashboard-title {
+  text-align: center;
+  font-size: 36px;
+  font-weight: bold;
+  color: #2b2b2b;
+  margin-bottom: 40px;
+  letter-spacing: 1px;
+}
+
+/* Grid Layout for Stats */
+.stats-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 30px;
+}
+
+/* Stat Cards */
+.stat-card {
+  background: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(12px);
+  border-radius: 18px;
+  padding: 30px 25px;
+  text-align: center;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  transition: all 0.3s ease-in-out;
+}
+
+.stat-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.stat-card h3 {
+  font-size: 18px;
+  color: #444;
+  margin-bottom: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.stat-card p {
+  font-size: 30px;
+  font-weight: 700;
+  color: #007bff;
+}
+
+/* System Health */
+.health-status {
+  display: inline-block;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 6px 12px;
+  border-radius: 8px;
+  margin-top: 5px;
+  background-color: #d4edda;
+  color: #28a745;
+}
+
+.health-status.down {
+  background-color: #f8d7da;
+  color: #dc3545;
+}
+
+.dashboard-note {
+  margin-top: 50px;
+  text-align: center;
+  font-size: 15px;
+  color: #555;
+  opacity: 0.85;
+  letter-spacing: 0.3px;
+}

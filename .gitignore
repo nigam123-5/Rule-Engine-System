@@ -1,0 +1,9 @@
+# Ignore frontend dependencies
+frontend/Rule-engine/node_modules
+
+# Ignore backend build files
+backend/ruleengine/target
+
+# Ignore OS/system files
+.DS_Store
+Thumbs.db
