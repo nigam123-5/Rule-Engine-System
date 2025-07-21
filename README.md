@@ -18,7 +18,7 @@ A full-stack Rule Engine system that dynamically evaluates user inputs based on 
 **Frontend:**
 - React.js
 - Axios
-- Tailwind CSS / Bootstrap
+-  CSS / Bootstrap
 
 **Backend:**
 - Spring Boot
